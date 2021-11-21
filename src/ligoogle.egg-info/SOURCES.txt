@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ligoogle/__init__.py
+src/ligoogle/__main__.py
+src/ligoogle.egg-info/PKG-INFO
+src/ligoogle.egg-info/SOURCES.txt
+src/ligoogle.egg-info/dependency_links.txt
+src/ligoogle.egg-info/top_level.txt

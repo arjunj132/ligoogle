@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: ligoogle
+Version: 1.2.1
+Summary: A (unofficial) google service for linux terminals
+Home-page: https://github.com/carrotscript/ligoogle
+Author: Arjun Jakkipally
+Author-email: jakkipally@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/carrotscript/ligoogle/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# LiGoogle Docs
+
+This package allows you to open google on the Linux terminal.
+
+## Installation
+
+You can install it via pip using:
+
+```
+pip3 install ligoogle
+```
+
+## Usage
+
+You open ligoogle by typing:
+
+```
+python3 -m ligoogle
+```
+
+Then the ligoogle cli pops up. Then type your search term and it should take some time till the JSON results appear.
+
+## Changing API keys
+
+You also may need to change the API keys to get a higher quota (regular is public and may limit you search quota). First go to [RapidAPI](https://rapidapi.com/) and get a API key. Then, at the `search@google` type this:
+
+```
+api-change
+```
+
+Then, enter your API key and then boom!
+
+---
+
+Copyright (c) Arjun J
+
