@@ -61,4 +61,4 @@ while True:
         result = data.decode("utf-8")
         your_json = result
         parsed = json.loads(your_json)
-        print(json.dumps(parsed, indent=4, sort_keys=True)
+        print(json.dumps(parsed, indent=4, sort_keys=True))
