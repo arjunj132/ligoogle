@@ -20,7 +20,7 @@ key = "72ddb23f61mshd7034341804bcedp12906djsned505dec18e5"
 def run(command):
     os.system(command)
 print("""
-‖ Unofficial .g8'''''bgd                               `7MM                     ‖ 
+‖ Unofficial .g8'''''bgd                               `7MM                    ‖ 
 ‖           .dP´     `M                                 MM                     ‖ 
 ‖           dm´       `   ,pW"Wq.   ,pW"Wq.   .P"Ybmmm  MM  .gP"Ya             ‖ 
 ‖           MM           6W´   `Wb 6W´   `WB :MI  I8    MM ,M´   Yb            ‖ 
@@ -39,6 +39,8 @@ while True:
     if str(search) == "api-change":
         ask = input("Enter API key: ")
         key = ask
+    elif str(search) == "app":
+        from ligoogle import app_google
     else:
         print("")
         print("")
@@ -50,12 +52,14 @@ while True:
         print("")
         print("")
         print("")
-        conn = http.client.HTTPSConnection("google-search1.p.rapidapi.com")
+        conn = http.client.HTTPSConnection("google-search3.p.rapidapi.com")
         headers = {
-            'x-rapidapi-host': "google-search1.p.rapidapi.com",
+            'x-user-agent': "desktop",
+            'x-proxy-location': "US",
+            'x-rapidapi-host': "google-search3.p.rapidapi.com",
             'x-rapidapi-key': "72ddb23f61mshd7034341804bcedp12906djsned505dec18e5"
         }
-        conn.request("GET", "/google-search?hl=en&q=" + urllib.parse.quote(search) +"&gl=us", headers=headers)
+        conn.request("GET", "/api/v1/search/q=elon+musk&num=100", headers=headers)
         res = conn.getresponse()
         data = res.read()
         result = data.decode("utf-8")
