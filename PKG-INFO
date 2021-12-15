@@ -1,3 +1,20 @@
+Metadata-Version: 2.1
+Name: ligoogle
+Version: 2.1.0
+Summary: A (unofficial) google service for linux terminals
+Home-page: https://github.com/carrotscript/ligoogle
+Author: Arjun Jakkipally
+Author-email: jakkipally@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/carrotscript/ligoogle/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # LiGoogle Docs
 
 This package allows you to open google on the Linux terminal.
@@ -44,3 +61,4 @@ This is great for people who do not want the terminal but want the JSON results.
 ---
 
 Copyright (c) Arjun J
+
