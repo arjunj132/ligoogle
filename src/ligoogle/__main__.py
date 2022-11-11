@@ -59,7 +59,7 @@ while True:
             'x-rapidapi-host': "google-search3.p.rapidapi.com",
             'x-rapidapi-key': "72ddb23f61mshd7034341804bcedp12906djsned505dec18e5"
         }
-        conn.request("GET", "/api/v1/search/q=elon+musk&num=100", headers=headers)
+        conn.request("GET", "/api/v1/search/q=" + urllib.parse.quote(search) + "&num=100", headers=headers)
         res = conn.getresponse()
         data = res.read()
         result = data.decode("utf-8")
