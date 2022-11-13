@@ -38,13 +38,7 @@ Then the ligoogle cli pops up. Then type your search term and it should take som
 
 ## The LiGoogle app
 
-If you search `command:app` on ligoogle, something will popup. It looks a bit like this:
-
-![LiGoogle App](https://user-images.githubusercontent.com/87620301/144341162-4aa96fda-bf71-40d4-87fc-80d62b747378.png)
-
-You add your search term and a RapidApi key (public key: `72ddb23f61mshd7034341804bcedp12906djsned505dec18e5`) and then, it will take about 4 seconds to open a new window with the JSON result.
-
-This is great for people who do not want the terminal but want the JSON results.
+The LiGoogle app is now deprecated and will not recive updates. It will be removed from the GitHub, but will stay at the PyPI package for now.
 
 ---
 
