@@ -22,7 +22,7 @@ Asciinema recording:
 
 You can install it via pip using:
 
-```
+```bash
 pip3 install ligoogle
 ```
 
@@ -30,7 +30,7 @@ pip3 install ligoogle
 
 You open ligoogle by typing:
 
-```
+```bash
 python3 -m ligoogle
 ```
 
