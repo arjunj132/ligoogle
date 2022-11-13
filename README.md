@@ -1,6 +1,11 @@
-# LiGoogle Docs
+<div align="center"><img src="https://user-images.githubusercontent.com/68869672/201534658-24a76cdc-e5be-47af-ab99-b55aeca29ec7.gif"></div>
 
-This package allows you to open google on the Linux terminal. THIS GITHUB REPO MAY BE OUTDATED!
+# <div align="center"><i>L i G o o g l e</i></div>
+This package allows you to open google on the Linux terminal.
+> **Warning** <br> THIS GITHUB REPO MAY BE OUTDATED!
+
+Asciinema recording:
+[![asciicast](https://asciinema.org/a/537357.png)](https://asciinema.org/a/537357)
 
 ## Installation
 
@@ -20,24 +25,13 @@ python3 -m ligoogle
 
 Then the ligoogle cli pops up. Then type your search term and it should take some time till the JSON results appear.
 
-## Changing API keys
-
-You also may need to change the API keys to get a higher quota (regular is public and may limit you search quota). First go to [RapidAPI](https://rapidapi.com/) and get a API key. Then, at the `search@google` type this:
-
-```
-api-change
-```
-
-Then, enter your API key and then boom!
-
-
 ## The LiGoogle app
 
-If you search `app` on ligoogle, something will popup. It looks a bit like this:
+If you search `command:app` on ligoogle, something will popup. It looks a bit like this:
 
 ![LiGoogle App](https://user-images.githubusercontent.com/87620301/144341162-4aa96fda-bf71-40d4-87fc-80d62b747378.png)
 
-You add your search term and api key and then, it will take about 4 seconds to open a new window with the JSON result.
+You add your search term and a RapidApi key (public key: `72ddb23f61mshd7034341804bcedp12906djsned505dec18e5`) and then, it will take about 4 seconds to open a new window with the JSON result.
 
 This is great for people who do not want the terminal but want the JSON results.
 
