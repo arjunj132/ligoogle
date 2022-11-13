@@ -16,9 +16,13 @@ import urllib.parse
 import urllib
 import json
 
+
 key = "72ddb23f61mshd7034341804bcedp12906djsned505dec18e5"
 def run(command):
     os.system(command)
+
+os.system('cls' if os.name=='nt' else 'clear')
+
 print("""
 ‖ Unofficial .g8'''''bgd                               `7MM                    ‖ 
 ‖           .dP´     `M                                 MM                     ‖ 
@@ -35,34 +39,30 @@ run("sleep 1")
 print(color.BLUE + "Loading host..." + color.END)
 run("sleep 1")
 while True:
-    search = input(color.GREEN + "search@google " + color.END + color.BLUE  + color.BOLD + "$ " + color.END + color.END)
-    if str(search) == "api-change":
-        ask = input("Enter API key: ")
-        key = ask
-    elif str(search) == "app":
+    search = input(color.BOLD + color.GREEN + "search@google " + color.END + color.END + color.BLUE  + color.BOLD + "$ " + color.END + color.END)
+    if str(search) == "command:app":
         from ligoogle import app_google
     else:
-        print("")
-        print("")
-        print("")
-        print("")
-        print("")
-        print("")
+        cls = lambda: os.system('cls' if os.name=='nt' else 'clear')
+        cls()
         print("Hang on tight! Scraping your results...")
-        print("")
-        print("")
-        print("")
-        conn = http.client.HTTPSConnection("google-search3.p.rapidapi.com")
-        headers = {
-            'x-user-agent': "desktop",
-            'x-proxy-location': "US",
-            'x-rapidapi-host': "google-search3.p.rapidapi.com",
-            'x-rapidapi-key': "72ddb23f61mshd7034341804bcedp12906djsned505dec18e5"
-        }
-        conn.request("GET", "/api/v1/search/q=" + urllib.parse.quote(search) + "&num=100", headers=headers)
-        res = conn.getresponse()
-        data = res.read()
-        result = data.decode("utf-8")
-        your_json = result
-        parsed = json.loads(your_json)
-        print(json.dumps(parsed, indent=4, sort_keys=True))
+        from magic_google import MagicGoogle
+        PROXIES = None
+        mg = MagicGoogle(PROXIES)
+        case = 0
+        searchresultgoogle = []
+        cls()
+        for i in mg.search(query=search, num=10):
+            case += 1
+            print(color.BOLD + "RESULT " + str(case) + ": " + color.GREEN + i["title"] + color.END + color.END)
+            print("URL: " + i["url"])
+            searchresultgoogle.append(i["url"])
+            print("\n\n")
+        resultopen = input(color.BOLD + color.GREEN + "result@google " + color.UNDERLINE + "(number of result to open/q to go back to search)" + color.END + color.END + color.END + color.BLUE  + color.BOLD + "$ " + color.END + color.END)
+        if resultopen == "q":
+            pass
+            cls()
+        else:
+            import webbrowser
+            webbrowser.open(searchresultgoogle[int(resultopen) - 1], new = 2)
+            cls()
