@@ -11,10 +11,6 @@ class color:
    END = '\033[0m'
 
 import os
-import http.client
-import urllib.parse
-import urllib
-import json
 
 
 key = "72ddb23f61mshd7034341804bcedp12906djsned505dec18e5"
@@ -60,7 +56,6 @@ while True:
             print("\n\n")
         resultopen = input(color.BOLD + color.GREEN + "result@google " + color.UNDERLINE + "(number of result to open/q to go back to search)" + color.END + color.END + color.END + color.BLUE  + color.BOLD + "$ " + color.END + color.END)
         if resultopen == "q":
-            pass
             cls()
         else:
             import webbrowser
