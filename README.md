@@ -9,6 +9,7 @@
 [![Downloads](https://pepy.tech/badge/ligoogle/month)](https://pepy.tech/project/ligoogle)
 [![Downloads](https://pepy.tech/badge/ligoogle/week)](https://pepy.tech/project/ligoogle)
 [![PyPI version](https://badge.fury.io/py/ligoogle.svg)](https://badge.fury.io/py/ligoogle)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/f203efce1d344e52b3f0e7ca0ca5b622)](https://www.codacy.com/gh/carrotscript/ligoogle/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=carrotscript/ligoogle&amp;utm_campaign=Badge_Grade)
 
 Support us by clicking the *star* button to help us make this product better.
 Have a issue or feature request? Report it [here](https://github.com/carrotscript/ligoogle/issues).
