@@ -11,7 +11,8 @@
 [![Downloads](https://pepy.tech/badge/ligoogle/week)](https://pepy.tech/project/ligoogle)
 [![PyPI version](https://badge.fury.io/py/ligoogle.svg)](https://badge.fury.io/py/ligoogle)
 
-Have a issue or feature request? Report it [here](https://github.com/carrotscript/ligoogle/issues)
+Support us by clicking the *star* button to help us make this product better.
+Have a issue or feature request? Report it [here](https://github.com/carrotscript/ligoogle/issues).
 
 This package allows you to open google on the Linux terminal.
 
