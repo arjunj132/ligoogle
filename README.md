@@ -1,13 +1,17 @@
 <div align="center"><img src="https://user-images.githubusercontent.com/68869672/201534658-24a76cdc-e5be-47af-ab99-b55aeca29ec7.gif"></div>
 
-# <div align="center">LiGoogle</div>
+# <div align="center">ligoogle</div>
+<br>
+<div align="center">The simple, fast, clean, and user-friendly google for Linux users</div>
+<br><br>
+
+
 [![Downloads](https://pepy.tech/badge/ligoogle)](https://pepy.tech/project/ligoogle)
 [![Downloads](https://pepy.tech/badge/ligoogle/month)](https://pepy.tech/project/ligoogle)
 [![Downloads](https://pepy.tech/badge/ligoogle/week)](https://pepy.tech/project/ligoogle)
 [![PyPI version](https://badge.fury.io/py/ligoogle.svg)](https://badge.fury.io/py/ligoogle)
 
 This package allows you to open google on the Linux terminal.
-> **Warning** <br> THIS GITHUB REPO MAY BE OUTDATED!
 
 Asciinema recording:
 [![asciicast](https://asciinema.org/a/537357.svg)](https://asciinema.org/a/537357)
