@@ -5,7 +5,6 @@
 <div align="center">The simple, fast, clean, and user-friendly google for Linux users</div>
 <br><br>
 
-
 [![Downloads](https://pepy.tech/badge/ligoogle)](https://pepy.tech/project/ligoogle)
 [![Downloads](https://pepy.tech/badge/ligoogle/month)](https://pepy.tech/project/ligoogle)
 [![Downloads](https://pepy.tech/badge/ligoogle/week)](https://pepy.tech/project/ligoogle)
