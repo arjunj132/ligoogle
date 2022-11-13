@@ -1,6 +1,6 @@
 # LiGoogle Docs
 
-This package allows you to open google on the Linux terminal.
+This package allows you to open google on the Linux terminal. THIS GITHUB REPO MAY BE OUTDATED!
 
 ## Installation
 
