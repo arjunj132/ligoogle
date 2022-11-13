@@ -1,6 +1,22 @@
 [build-system]
-requires = [
-    "setuptools>=42",
-    "wheel"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ligoogle"
+version = "3.0.3"
+authors = [
+  { name="Arjun Jakkipally", email="jakkipally@gmail.com" },
 ]
-build-backend = "setuptools.build_meta"
+description = "A (unofficial) google service for linux terminals"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: Unix",
+]
+dependencies = ["magic_google"]
+
+[project.urls]
+"Homepage" = "https://github.com/carrotscript/ligoogle"
+"Bug Tracker" = "https://github.com/carrotscript/ligoogle/issues"
