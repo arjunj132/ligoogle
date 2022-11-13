@@ -10,7 +10,7 @@ This package allows you to open google on the Linux terminal.
 > **Warning** <br> THIS GITHUB REPO MAY BE OUTDATED!
 
 Asciinema recording:
-[![asciicast](https://asciinema.org/a/537357.png)](https://asciinema.org/a/537357)
+[![asciicast](https://asciinema.org/a/537357.svg)](https://asciinema.org/a/537357)
 
 ## Installation
 
