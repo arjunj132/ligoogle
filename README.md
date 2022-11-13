@@ -5,6 +5,7 @@
 <div align="center">The simple, fast, clean, and user-friendly google for Linux users</div>
 <br><br>
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4acf6d874bac4b4d8715c79b156bdd00)](https://app.codacy.com/gh/carrotscript/ligoogle?utm_source=github.com&utm_medium=referral&utm_content=carrotscript/ligoogle&utm_campaign=Badge_Grade_Settings)
 [![Downloads](https://pepy.tech/badge/ligoogle)](https://pepy.tech/project/ligoogle)
 [![Downloads](https://pepy.tech/badge/ligoogle/month)](https://pepy.tech/project/ligoogle)
 [![Downloads](https://pepy.tech/badge/ligoogle/week)](https://pepy.tech/project/ligoogle)
