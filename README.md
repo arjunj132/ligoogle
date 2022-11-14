@@ -36,7 +36,7 @@ You open ligoogle by typing:
 python3 -m ligoogle
 ```
 
-Then the ligoogle cli pops up. Then type your search term and it should take some time till the JSON results appear.
+Then the ligoogle cli pops up. Then type your search term and it should take some time till the results appear.
 
 ## The LiGoogle app
 
