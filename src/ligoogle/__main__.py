@@ -13,7 +13,6 @@ class color:
 import os
 
 
-key = "72ddb23f61mshd7034341804bcedp12906djsned505dec18e5"
 def run(command):
     os.system(command)
 
@@ -30,10 +29,7 @@ print("""
 ‖                                            6´     dP                         ‖ 
 ‖                         The Linux Google    Ybmmmd´                          ‖
 """)
-print(color.PURPLE + "Loading google..." + color.END)
-run("sleep 1")
-print(color.BLUE + "Loading host..." + color.END)
-run("sleep 1")
+
 while True:
     search = input(color.BOLD + color.GREEN + "search@google " + color.END + color.END + color.BLUE  + color.BOLD + "$ " + color.END + color.END)
     if str(search) == "command:app":
