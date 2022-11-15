@@ -16,8 +16,6 @@ jobs:
 
     - name: Run ligoogle installs
       run: |
-        cd src
-        cd ligoogle
         pip install magic_google
 
     - name: Coveralls
